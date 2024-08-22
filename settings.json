@@ -1,0 +1,182 @@
+/*{
+    "editor.fontSize": 20,
+    "verilog.ctags.path": "D:\\ctags-2021-10-25_p5.9.20211024.0-2-g6f544dfc-x64",
+    "verilog.linting.iverilog.runAtFileLocation": true,
+    "verilog.linting.linter": "iverilog",
+    "workbench.colorTheme": "GitHub Dark High Contrast",
+    "editor.fontLigatures": false
+}*/
+{
+    "files.associations": {
+        "typeinfo": "c",
+        "*.base": "makefile"
+    },
+    
+    "editor.tokenColorCustomizations":{
+       
+        "[Default Dark+]": {
+            "functions": "#CE9178",
+            "variables": "#00fdcf",
+            "strings": "#94cdfb",
+            "numbers": "#ff6338",
+            //"numbers": "#2d6692",
+            "keywords": "#FF0000",
+            "textMateRules": [
+                {
+                    "scope": "constant.other.placeholder",//
+                    "settings": {
+                        "foreground": "#26deff"
+                    }
+                },
+                {
+                    "scope": "keyword.control",//if ,else, try 等控制符
+                    "settings": {
+                        "foreground": "#C586C0"
+                    }
+                },
+                {
+                    "scope": "keyword.operator",//算数符
+                    "settings": {
+                        "foreground": "#CE9178"
+                    }
+                },
+                {
+                    "scope": "storage.modifier",//修饰语
+                    "settings": {
+                        "foreground": "#f09090"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.class",//类名
+                    "settings": {
+                        "foreground": "#c0526a"
+                    }
+                },
+                {
+                    "scope": "storage.type.primitive.java",//int和其他
+                    "settings": {
+                        "foreground": "#c0526a"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.interface",//接口
+                    "settings": {
+                        "foreground": "#c0526a"
+                    }
+                },
+                {
+                    "scope": "entity.name.namespace",//导入部分
+                    "settings": {
+                        "foreground": "#748177"
+                    }
+                },
+                {
+                    "scope": "entity.name.tag",//html标签
+                    "settings": {
+                        "foreground": "#d35c5c"
+                    }
+                }
+            ]
+        }
+
+    },
+    "workbench.colorCustomizations": {
+                //     "terminal.background":"#001100",
+      "terminal.foreground":"#00ff04",
+      //"terminalCursor.background":"#00BB00",
+      "terminalCursor.foreground":"#00b5bb",
+      //"terminal.ansiBlack":"#001100",
+      //"terminal.ansiBlue":"#990078",
+     //"terminal.ansiBrightBlack":"#770053",
+      "terminal.ansiBrightBlue":"#00eaff",
+      //"terminal.ansiBrightCyan":"#005540",
+      "terminal.ansiBrightGreen":"#5d22dd",
+      //"terminal.ansiBrightMagenta":"#0096bb",
+      //"terminal.ansiBrightRed":"#000877",
+      //"terminal.ansiBrightWhite":"#00FF00",
+      //"terminal.ansiBrightYellow":"#77001e",
+      //"terminal.ansiCyan":"#00554a",
+      //"terminal.ansiGreen":"#bb00bb",
+      //"terminal.ansiMagenta":"#bb0067",
+      //"terminal.ansiRed":"#770067",
+      //"terminal.ansiWhite":"#bb006d",
+     // "terminal.ansiYellow":"#77003c"
+   //   "[Default Dark+]": {
+        //"activityBar.foreground": "#7affe7",
+        //"activityBar.background": "#000000",
+        //"editor.foreground": "#00fd00",
+        //"editor.background": "#000000",
+        //"panel.background": "#000000",
+        //"sideBar.foreground": "#f000ac",
+        "activityBar.foreground": "#7affe7",
+        "activityBar.background": "#000000",
+        "editor.foreground": "#15fd00",
+        "editor.background": "#000000fa",
+        "panel.background": "#000000",
+        "sideBar.foreground": "#f000ac",
+        "editor.selectionHighlightBackground": "#a800e0",
+        "editor.selectionBackground": "#066e75",
+        "editor.lineHighlightBorder":"#097d81fa",
+
+
+   // }
+
+    },
+
+    "editor.fontLigatures": false,
+    "editor.fontSize": 18,
+    "remote.SSH.remotePlatform": {
+        "192.168.45.128": "linux",
+        "192.168.45.130": "linux",
+        "192.168.244.128": "linux",
+        "192.168.50.60": "linux",
+        "ysyx": "linux",
+        "192.168.106.129": "linux",
+        "IC_EDA": "linux"
+    },
+    "remote.SSH.showLoginTerminal": true,
+    "verilog.linting.linter": "iverilog",
+   /* "editor.codeActionsOnSave": {
+
+
+
+    
+    
+        
+    
+    },*/
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-mermaid.darkModeTheme": "forest",
+    "editor.wordWrap": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "easycode.userEmail": "286686264@qq.com",
+    "editor.inlineSuggest.enabled": true,
+    "CodeGPT.query.language": "Chinese",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": false
+    },
+    "editor.inlineSuggest.showToolbar": "always",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "easycode.model": "gpt-3.5-turbo",
+    "explorer.confirmDragAndDrop": false,
+    "editor.codeActionsOnSave": {
+    
+        
+    },
+    "workbench.editorAssociations": {
+        "*.pdf": "cweijan.officeViewer",
+        "*.png": "cweijan.officeViewer",
+        "{git,gitlens}:/**/*.{md,csv}": "default",
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    },
+    "git.ignoreLegacyWarning": true,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.fontWeight": "normal"
+}
